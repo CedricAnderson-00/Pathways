@@ -35,3 +35,14 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        
+        # test print of arguements
+        print(nums[0])
+        
+
+    # assign variables
+    number_list = [1, 2]
+    target_value = 0
+    
+    # Function call with parameters
+    twoSum(1, number_list, target_value)
