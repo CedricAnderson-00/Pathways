@@ -6,7 +6,7 @@ You may assume that each input would have exactly one solution, and you may not 
 You can return the answer in any order. """
 
 
-# examples
+# Examples
 """ 
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
@@ -19,7 +19,7 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 """
 
-# constraints
+# Constraints
 """
 2 <= nums.length <= 104
 -109 <= nums[i] <= 109
@@ -27,7 +27,7 @@ Output: [0,1]
 Only one valid answer exists.
 """ 
 
-# complete this function
+# Complete this function
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -36,11 +36,11 @@ class Solution(object):
         :rtype: List[int]
         """
         
-        # test print of arguements
+        # Test print of arguements
         print(nums[0])
         
 
-    # assign variables
+    # Assign variables
     number_list = [1, 2]
     target_value = 0
     
